@@ -19,5 +19,6 @@ module.exports = {
     'no-console': 'off',
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'no-unused-vars': 'warn',
   },
 }
