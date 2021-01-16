@@ -1,0 +1,37 @@
+@import 'rules';
+
+* {
+  @include border();
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+/* 頁首 頁尾 */
+header {
+}
+
+footer {
+}
+
+/* 內容框架 */
+.container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.layout {
+}
+
+/* 字型規則 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}

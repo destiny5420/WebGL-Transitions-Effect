@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "rules": {
+    "block-no-empty": null,
+    "max-nesting-depth": null
+  },
+  "ignoreFiles": ["./node_modules/**/*.{css,scss,sass}", "./dist/**/*.{css,scss,sass}"]
+}

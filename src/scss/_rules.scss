@@ -1,0 +1,10 @@
+/* 各式 device size */
+@mixin border($width: 1px) {
+  border: $width solid #000;
+}
+
+@mixin independent($zIndex: 1) {
+  content: '';
+  position: absolute;
+  z-index: $zIndex;
+}
